@@ -1,0 +1,161 @@
+<html><!-- #BeginTemplate "/Templates/template.dwt" --><!-- DW6 -->
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Payroll System</title>
+<!-- #EndEditable -->
+<meta http-equiv="Content-Type" content="text/html;">
+<SCRIPT language=JavaScript>
+function makeArray() {
+     for (i = 0; i<makeArray.arguments.length; i++)
+         this[i] = makeArray.arguments[i];
+ }
+
+function getFullYear(d) {
+    var y = d.getYear();
+    if (y < 1000) {y += 1900};
+    return y;
+}
+
+//var zone = "EDT";
+var days = new makeArray("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+var months = new makeArray("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function format_time(t) {
+
+    var Day = t.getDay();
+    var Date = t.getDate();
+    var Month = t.getMonth();
+    var Year = t.getFullYear();
+
+    timeString = "";
+    timeString += days[Day];
+    timeString += ", ";
+    timeString += " ";
+    timeString += months[Month];
+    timeString += " ";
+    timeString += Date;
+    timeString += ", ";
+    timeString += " ";
+    timeString += Year;
+
+   return timeString;
+ }
+</SCRIPT>
+<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" link="#747AC6" vlink="#B49BCD">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+  <tr> 
+    <td valign="top" height="84" background="images/header_fill.jpg"><h1>Payroll System</h1></td>
+  </tr>
+  <tr> 
+    <td valign="top" height="22" background="images/blue_fill.gif" align="right"> 
+      <table width="220" border="0" cellspacing="0" cellpadding="0" height="22">
+        <tr> 
+          <td width="37"><img name="blue_crn" src="images/blue_crn.gif" width="37" height="22" border="0"></td>
+          <td background="images/lt_blue_fill.gif" class="date" width="200"> 
+            <script language=JavaScript>
+			<!--
+			d = new Date();
+			document.write(format_time(d));
+			// -->
+		</script>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+        <tr> 
+          <td width="140" bgcolor="#92A2E1" valign="top" align="center"> <br>
+            <table width="80%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td class="links"> <img src="images/square.gif" width="7" height="7"> 
+                  <a href="#" class="links">HOME</a><br>
+                  <br>
+                  <img src="images/square.gif" width="7" height="7"> 
+                  <a href="#" class="links">ABOUT</a><br>
+                  <br>
+                  <img src="images/square.gif" width="7" height="7"> 
+                  <a href="#" class="links">LINKS</a> <br>
+                  <br>
+                  <img src="images/square.gif" width="7" height="7"> 
+                  <a href="#" class="links">CONTACT</a><br>
+                  <br>
+                  <img src="images/square.gif" width="7" height="7"> 
+                  <a href="#" class="links"></a><a href="#" class="links">MORE 
+                  LINKS</a><br>
+                  <br>
+                  <img src="images/square.gif" width="7" height="7"> 
+                  <a href="#" class="links"></a><a href="#" class="links">MORE 
+                  LINKS</a></td>
+              </tr>
+            </table>
+          </td>
+          <td valign="top" bgcolor="#FFFFFF"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="30" height="100%">
+              <tr> 
+                <td class="text" valign="top" bgcolor="#FFFFFF" height="370"> 
+                  <!-- #BeginEditable "content" --> 
+                  <p><span class="subtitle"><b>Step 1 -<font color="#CC0000"> 
+                    Very Important! </font></b></span>Please make sure you read 
+                    the <b><a href="terms.htm">Terms and Conditions</a></b> before 
+                    you start using the template.</p>
+                  <p><span class="subtitle">Step 2 - <font color="#CC0000">Get 
+                    started! </font></span>Go through our <b><a href="help_files.htm">simple 
+                    template customization guide</a></b> to customize and use 
+                    this template.</p>
+                  <p>More free website design tips and tricks, Dreamweaver and 
+                    Fireworks tutorials can be found at our online <b><a href="http://www.entheosweb.com/website_design/default.asp" target="_blank">Web 
+                    Design Guide</a></b>.</p>
+                  <p><span class="title">Each web template includes:</span> </p>
+                  <ul class="bullet">
+                    <li>The layout in a Fireworks file (.png file)</li>
+                    <li>A Dreamweaver web template (.dwt file) </li>
+                    <li>An external<b> </b>style sheet to manage the fonts (.css 
+                      file)</li>
+                    <li>A font folder that includes the fonts used in the layout</li>
+                    <li>An images folder that contains all the images used in 
+                      the template</li>
+                    <li>An easy-to-follow customization guide</li>
+                  </ul>
+                  <p><span class="title">High Quality Web Templates Designed by 
+                    Entheosweb.com </span> </p>
+                  <p>Entheos offers professional web templates at affordable prices. 
+                    Choose from a variety of high quality website designs to find 
+                    the perfect template for your line of business. <a href="http://www.entheosweb.com/website_templates/default.asp" target="_blank"><b>More 
+                    Templates from Entheosweb.com </b></a></p>
+                  <!-- #EndEditable --> 
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr> 
+          <td width="140" bgcolor="#92A2E1" height="27">&nbsp;</td>
+          <td align="right" height="27" bgcolor="#FFFFFF"><img name="footer_right" src="images/footer_right.gif" width="110" height="27" border="0"></td>
+        </tr>
+        <tr> 
+          <td width="140" background="images/footer_fill.jpg" height="38">&nbsp;</td>
+          <td align="right" height="38" background="images/footer_fill.jpg"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" background="images/footer_fill.jpg">
+              <tr> 
+                <td valign="bottom" align="center" class="footer">Copyright &copy; 
+                www.PayrollSystem.com. All Rights Reserved. Designed by <a href="http://www.entheosweb.com" target="_blank" class="footer">Entheosweb.com</a></td>
+                <td align="right" width="110"><img name="footer_right2" src="images/footer_right2.gif" width="110" height="38" border="0"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr> 
+          <td width="140" height="10">&nbsp;</td>
+          <td align="right" height="10">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+<!-- #EndTemplate --></html>

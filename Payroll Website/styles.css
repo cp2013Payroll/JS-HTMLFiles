@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Razer Regular';
+    src: url('fonts/RAZER.ttf');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #747AC6}
+h1 { font-family:"Razer Regular"; font-size:32px; padding-left:1em; padding-top:0.25em;}
+.links {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #FFFFFF; text-decoration: none}
+.links:hover { color: #FFFFFF; text-decoration: underline; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold}
+.subtitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #CC99CC}
+.bullet {  list-style-image:  url(images/bullet.gif)}
+.date {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF}
+.text {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 19px}
+a:hover {  color: #CC99CC; text-decoration: none}
+.footer { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: normal; color:#000; font-weight: bold ; text-decoration: none}
+.footer:hover {  color: #000}
