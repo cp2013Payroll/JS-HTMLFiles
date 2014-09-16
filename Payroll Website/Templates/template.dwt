@@ -69,28 +69,30 @@ function format_time(t) {
     <td valign="top"> 
       <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
         <tr> 
-          <td width="140" bgcolor="#92A2E1" valign="top" align="center"> <br>
+          <td width="170" bgcolor="#92A2E1" valign="top" align="center"> <br>
             <table width="80%" border="0" cellspacing="0" cellpadding="0">
               <tr> 
                 <td class="links"> <img src="../images/square.gif" width="7" height="7"> 
-                  <a href="#" class="links">HOME</a><br>
+                  <a href="../index.htm" class="links">HOME</a><br>
                   <br>
                   <img src="../images/square.gif" width="7" height="7"> 
-                  <a href="#" class="links">ABOUT</a><br>
+                  <a href="../addEmployee.htm" class="links">ADD EMPLOYEE</a><br>
                   <br>
                   <img src="../images/square.gif" width="7" height="7"> 
-                  <a href="#" class="links">LINKS</a> <br>
+                  <a href="../deleteEmployee.htm" class="links">DELETE EMPLOYEE</a> <br>
                   <br>
                   <img src="../images/square.gif" width="7" height="7"> 
-                  <a href="#" class="links">CONTACT</a><br>
+                  <a href="../postTimeCard.htm" class="links">POST TIME CARD</a><br>
                   <br>
                   <img src="../images/square.gif" width="7" height="7"> 
-                  <a href="#" class="links"></a><a href="#" class="links">MORE 
-                  LINKS</a><br>
+                  <a href="../postSalesReceipt.htm" class="links">POST SALES RECEIPT</a><br>
                   <br>
                   <img src="../images/square.gif" width="7" height="7"> 
-                  <a href="#" class="links"></a><a href="#" class="links">MORE 
-                  LINKS</a></td>
+                  <a href="../changeEmployeeDetails.htm" class="links">CHANGE EMPLOYEE DETAILS</a><br>
+                  <br>
+                  <img src="../images/square.gif" width="7" height="7"> 
+                  <a href="../runPayroll.htm" class="links">RUN PAYROLL</a><br>
+                  </td>
               </tr>
             </table>
           </td>
